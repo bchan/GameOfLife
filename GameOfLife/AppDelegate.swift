@@ -44,3 +44,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+func ==(left: Cell, right: Cell) -> Bool {
+    if left.xCoor == right.xCoor && left.yCoor == right.yCoor {
+        return true
+    } else {
+        return false
+    }
+}
+
+
+
+
+

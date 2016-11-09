@@ -12,6 +12,8 @@
 		271D8AA61DD39DB70035A9E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 271D8AA41DD39DB70035A9E0 /* Main.storyboard */; };
 		271D8AA81DD39DB70035A9E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 271D8AA71DD39DB70035A9E0 /* Assets.xcassets */; };
 		271D8AAB1DD39DB70035A9E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 271D8AA91DD39DB70035A9E0 /* LaunchScreen.storyboard */; };
+		271D8AB31DD3BA330035A9E0 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271D8AB21DD3BA330035A9E0 /* Cell.swift */; };
+		271D8AB51DD3BA3C0035A9E0 /* Colony.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271D8AB41DD3BA3C0035A9E0 /* Colony.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		271D8AA71DD39DB70035A9E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		271D8AAA1DD39DB70035A9E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		271D8AAC1DD39DB70035A9E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		271D8AB21DD3BA330035A9E0 /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		271D8AB41DD3BA3C0035A9E0 /* Colony.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colony.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				271D8AA71DD39DB70035A9E0 /* Assets.xcassets */,
 				271D8AA91DD39DB70035A9E0 /* LaunchScreen.storyboard */,
 				271D8AAC1DD39DB70035A9E0 /* Info.plist */,
+				271D8AB21DD3BA330035A9E0 /* Cell.swift */,
+				271D8AB41DD3BA3C0035A9E0 /* Colony.swift */,
 			);
 			path = GameOfLife;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			files = (
 				271D8AA31DD39DB70035A9E0 /* ViewController.swift in Sources */,
 				271D8AA11DD39DB70035A9E0 /* AppDelegate.swift in Sources */,
+				271D8AB31DD3BA330035A9E0 /* Cell.swift in Sources */,
+				271D8AB51DD3BA3C0035A9E0 /* Colony.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
